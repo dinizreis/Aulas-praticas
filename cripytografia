@@ -1,0 +1,28 @@
+# criptografia 
+
+# VAMOS CRIAR UMA FUNCAO QUE CRIPTOGRADICA UM TEXTO
+
+def cripto(frase):
+    tradutor = ""
+    for letra in frase:
+        if letra in "Aa":
+            tradutor = tradutor + "@"
+        elif letra in "Cc":
+            tradutor = tradutor + "8"
+        elif letra in "Tt":
+            tradutor = tradutor + "*"
+        elif letra in "Hh":
+            tradutor = tradutor + "$"
+        elif letra in "Ii":
+            tradutor = tradutor + "♀"
+        elif letra in "Gg":
+            tradutor = tradutor + "§"
+        elif letra in "Oo":
+            tradutor = tradutor + "<"
+        elif letra in "Rr":
+            tradutor = tradutor + ">"
+        else:
+            tradutor = tradutor + letra
+    return tradutor
+    
+print(cripto(input("Digite a frase: ")))

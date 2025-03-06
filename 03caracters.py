@@ -1,0 +1,40 @@
+frase = "   Eu vou conseguir mudar a minha vida estudando programação!    "
+print("-----------------------------------------------------------")
+print(frase)
+print("-----------------------------------------------------------")
+print(frase[:30])
+print("-----------------------------------------------------------")
+print(frase[1:30:2])
+print("-----------------------------------------------------------")
+print(frase[1::2])
+print("-----------------------------------------------------------")
+print("""Python was invented in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) 
+in the Netherlands as a successor to the ABC programming language, which was inspired by SETL, 
+capable of exception handling and interfacing with the Amoeba operating system.""")
+print("-----------------------------------------------------------")
+print(frase.count("o"))
+print("-----------------------------------------------------------")
+print(frase.upper().count("A"))
+print("-----------------------------------------------------------")
+print(len(frase))
+print("-----------------------------------------------------------")
+print(len(frase.strip()))   # strip() removendo os espacos inutilizados
+print("-----------------------------------------------------------")
+print(frase.replace("conseguir","TRANSFORMAR"))
+print("-----------------------------------------------------------")
+print("mudar" in frase)
+print("-----------------------------------------------------------")
+print(frase.find("programação"))
+print("-----------------------------------------------------------")
+print(frase.upper())
+print("-----------------------------------------------------------")
+print(frase.split())
+print("-----------------------------------------------------------")
+
+print("-----------------------------------------------------------")
+
+print("-----------------------------------------------------------")
+
+print("-----------------------------------------------------------")
+
+print("-----------------------------------------------------------")
