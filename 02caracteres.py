@@ -24,9 +24,9 @@ print(frase[15:])
 print(frase[9::3])
 '''
     O simbolo de colchetes [] quer dizer listas.
-nesse exemplo, dei um print() com a variavel frase e, normalmente era para o comando printar na tela o que está contido na variavel frase.
+Neste exemplo, dei um print() com a variavel frase e, normalmente era para o comando printar na tela o que está contido na variável frase.
 no entanto o que vai mudar aqui com esses colchetes [] é que dentro deles há o numero 9 da seguinte maneira print(frase[9])
-isso quer dizer que ele vai imprimir pra mim só a letra que há na cadeia de caractere 9 da minha frase, que no caso é a letra 'V' lembando que
+isso quer dizer que ele vai imprimir só a letra que há na cadeia de caractere 9 da minha frase, que no caso é a letra 'V' lembrando que
 a contagem começa sempre do zero ( 0 )
 
     Um outro exemplo --> print(frase[9:13]) <-- aqui nessa situação é um pouco diferente, ele está agora entre colchetes 9:13
